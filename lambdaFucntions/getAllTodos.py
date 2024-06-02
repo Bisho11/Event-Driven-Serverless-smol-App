@@ -2,7 +2,6 @@ import json
 import boto3
 from boto3.dynamodb.conditions import Key
 
-# Create a DynamoDB client
 dynamodb = boto3.resource('dynamodb')
 table = dynamodb.Table('Todo')
 
